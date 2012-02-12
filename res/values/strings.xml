@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Planning Poker</string>
+    <string name="about">about</string>
+    <string name="break_label">Break?</string>
+    <string name="question_label">\?</string>
+    <string name="about_text">Planning Poker is a tool for estimating software development projects. 
+        \n\nIt is a consensus-based technique for estimating the development effort in an Agile project. 
+        It was first described in 2002 by James Grenning and made popular by Mike Cohn of Mountain Goat Software.
+        \n\nThe team usually has a pack of cards for each person to estimate the difficulty of each story and this version was 
+developed to replace the cards so that android handsets could be used during planning.
+\n\nThis application was written to provide Agile practitioners a tool for planning and estimation without having playing 
+cards. It works in the same way as cards in that a number is chosen and displayed on a phone for the team to see.
+</string>
+</resources>
