@@ -1,0 +1,8 @@
+settings / about
+###############
+card set
+custom card set
+
+sideswipe cards
+###############
+byta mellan kort
