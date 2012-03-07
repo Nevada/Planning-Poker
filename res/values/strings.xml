@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Planning Poker</string>
-    <string name="about">about</string>
+    <string name="poker">Planning Poker</string>
+    <string name="netlight">Netlight</string>
+    <string name="settings">Settings</string>
     <string name="break_label">Break?</string>
     <string name="question_label">\?</string>
     <string name="about_text">Planning Poker is a tool for estimating software development projects. 
@@ -12,4 +14,22 @@ developed to replace the cards so that android handsets could be used during pla
 \n\nThis application was written to provide Agile practitioners a tool for planning and estimation without having playing 
 cards. It works in the same way as cards in that a number is chosen and displayed on a phone for the team to see.
 </string>
+<string name="netlight_text">Netlight is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, create valuable results for our 
+    clients. \n\nFor Genuine Consultants client interests come first. We deliver independent solutions and tangible results of significant value, based on the client’s conditions and 
+    business goals. \n\nWe do this by focusing on our core values Competence, Creativity and Business Sense.\n\n\nBirger Jarlsgatan 7, 4 tr\nSE-111 45 Stockholm\nSweden\nPhone: +46 8-616 99 40\nEmail: info@netlight.se 
+</string>
+
+<string-array name="list">
+        <item>Ficonaci</item>
+        <item>Large</item>
+        <item>Ningary</item>
+    </string-array>
+
+    <string-array name="list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
 </resources>
