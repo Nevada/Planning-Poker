@@ -12,9 +12,11 @@
         \n\nThe team usually has a pack of cards for each person to estimate the difficulty of each story and this version was 
 developed to replace the cards so that android handsets could be used during planning.
 \n\nThis application was written to provide Agile practitioners a tool for planning and estimation without having playing 
-cards. It works in the same way as cards in that a number is chosen and displayed on a phone for the team to see.\n\n\nNetlight is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, create valuable results for our 
-    clients. \n\nFor Genuine Consultants client interests come first. We deliver independent solutions and tangible results of significant value, based on the client’s conditions and 
-    business goals. \n\nWe do this by focusing on our core values Competence, Creativity and Business Sense.\n\n\nBirger Jarlsgatan 7, 4 tr\nSE-111 45 Stockholm\nSweden\nPhone: +46 8-616 99 40\nEmail: info@netlight.se </string>
+cards. It works in the same way as cards in that a number is chosen and displayed on a phone for the team to see.\n\nNetlight 
+is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, create valuable results for our 
+    clients. \n\nFor Genuine Consultants client interests come first. We deliver independent solutions and tangible results of significant value, 
+    based on the client’s conditions and business goals.\n\nWe do this by focusing on our core values Competence, Creativity and Business 
+    Sense.\n\n</string>
 
     <string-array name="list">
         <item>Fibonacci</item>

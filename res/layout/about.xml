@@ -15,22 +15,27 @@
                    android:textColor="#cc9933"
         android:textStyle="bold"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-    
-    <TextView
-        android:id="@+id/number"
-        android:layout_width="fill_parent"
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:text="@string/about_text"
-                           android:textColor="#36185f"
-         />
-     <ImageView
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/about_text"
+            android:textColor="#36185f" />
+    </ScrollView>
+
+    <ImageView
         android:id="@+id/imageView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
-        android:src="@drawable/logo"
-        />
+        android:src="@drawable/logo" />
 
 </LinearLayout>

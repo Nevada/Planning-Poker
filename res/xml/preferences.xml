@@ -21,7 +21,7 @@
             android:title="Select your list" />
 
         <EditTextPreference
-            android:defaultValue=""
+            android:defaultValue="10,11,12,13,14,15,16,17,18,19"
             android:key="customPref"
             android:summary="Set your own"
             android:title="Set your own values" />
