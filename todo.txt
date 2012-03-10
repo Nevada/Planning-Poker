@@ -1,8 +1,7 @@
-settings / about
-###############
-card set
-custom card set
-
 sideswipe cards
 ###############
 byta mellan kort
+
+random bilder på break
+#####################
+tex en öl, eller en kaffe

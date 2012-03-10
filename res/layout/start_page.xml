@@ -24,7 +24,7 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/Button02"
+            android:id="@+id/b1"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -37,7 +37,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/Button03"
+            android:id="@+id/b2"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -50,7 +50,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/Button01"
+            android:id="@+id/b3"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -70,7 +70,7 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/Button09"
+            android:id="@+id/b4"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -83,7 +83,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/Button07"
+            android:id="@+id/b5"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -96,7 +96,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/Button08"
+            android:id="@+id/b6"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -116,7 +116,7 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/Button12"
+            android:id="@+id/b7"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -129,7 +129,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/Button10"
+            android:id="@+id/b8"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -142,7 +142,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/Button11"
+            android:id="@+id/b9"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"
@@ -162,7 +162,7 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/Button06"
+            android:id="@+id/b10"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="2dp"

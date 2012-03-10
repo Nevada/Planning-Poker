@@ -9,8 +9,12 @@ package com.netlight.poker;
 
 public final class R {
     public static final class array {
+        public static final int Binary=0x7f060004;
+        public static final int Fibonacci=0x7f060002;
+        public static final int Large=0x7f060005;
         public static final int list=0x7f060000;
         public static final int list_values=0x7f060001;
+        public static final int oneten=0x7f060003;
     }
     public static final class attr {
     }
@@ -28,22 +32,22 @@ public final class R {
         public static final int small_number_org=0x7f02000a;
     }
     public static final class id {
-        public static final int Button01=0x7f07000a;
-        public static final int Button02=0x7f070008;
-        public static final int Button03=0x7f070009;
         public static final int Button04=0x7f070015;
         public static final int Button05=0x7f070016;
-        public static final int Button06=0x7f070014;
-        public static final int Button07=0x7f07000d;
-        public static final int Button08=0x7f07000e;
-        public static final int Button09=0x7f07000c;
-        public static final int Button10=0x7f070011;
-        public static final int Button11=0x7f070012;
-        public static final int Button12=0x7f070010;
         public static final int LinearLayout01=0x7f070013;
         public static final int LinearLayout02=0x7f07000b;
         public static final int LinearLayout03=0x7f07000f;
         public static final int RelativeLayout01=0x7f070003;
+        public static final int b1=0x7f070008;
+        public static final int b10=0x7f070014;
+        public static final int b2=0x7f070009;
+        public static final int b3=0x7f07000a;
+        public static final int b4=0x7f07000c;
+        public static final int b5=0x7f07000d;
+        public static final int b6=0x7f07000e;
+        public static final int b7=0x7f070010;
+        public static final int b8=0x7f070011;
+        public static final int b9=0x7f070012;
         public static final int imageView1=0x7f070002;
         public static final int linearLayout1=0x7f070007;
         public static final int number=0x7f070001;
@@ -55,18 +59,15 @@ public final class R {
     public static final class layout {
         public static final int about=0x7f030000;
         public static final int card=0x7f030001;
-        public static final int main=0x7f030002;
-        public static final int netlight=0x7f030003;
+        public static final int start_page=0x7f030002;
     }
     public static final class string {
-        public static final int about_text=0x7f050006;
+        public static final int about=0x7f050001;
+        public static final int about_text=0x7f050005;
         public static final int app_name=0x7f050000;
-        public static final int break_label=0x7f050004;
-        public static final int netlight=0x7f050002;
-        public static final int netlight_text=0x7f050007;
-        public static final int poker=0x7f050001;
-        public static final int question_label=0x7f050005;
-        public static final int settings=0x7f050003;
+        public static final int break_label=0x7f050003;
+        public static final int question_label=0x7f050004;
+        public static final int settings=0x7f050002;
     }
     public static final class xml {
         public static final int preferences=0x7f040000;

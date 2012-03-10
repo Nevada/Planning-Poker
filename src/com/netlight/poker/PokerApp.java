@@ -5,6 +5,7 @@ import android.app.Application;
 public class PokerApp extends Application {
 
 	private String currentCard;
+	private String[] currentNumbers;
 
 	@Override
 	public void onCreate() {
@@ -23,5 +24,13 @@ public class PokerApp extends Application {
 
 	public void setCurrentCard(String currentCard) {
 		this.currentCard = currentCard;
+	}
+
+	public String[] getCurrentNumbers() {
+		return currentNumbers;
+	}
+
+	public void setCurrentNumbers(String[] currentNumbers) {
+		this.currentNumbers = currentNumbers;
 	}
 }

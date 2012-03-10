@@ -2,6 +2,7 @@ package com.netlight.poker;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class Card extends Activity {
@@ -23,6 +24,10 @@ public class Card extends Activity {
 		if (app.getCurrentCard().equals("Break?")) {
 			title.setTextSize(70f);
 		}
+	}
+
+	public void back(View view) {
+		finish();
 	}
 
 }
