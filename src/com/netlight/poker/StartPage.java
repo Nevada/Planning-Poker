@@ -99,7 +99,6 @@ public class StartPage extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		menu.add(0, ABOUT, 0, R.string.about);
 		menu.add(0, SETTINGS, 0, R.string.settings);
-
 		return true;
 	}
 

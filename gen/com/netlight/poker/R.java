@@ -30,6 +30,7 @@ public final class R {
         public static final int small_card_org=0x7f020008;
         public static final int small_number=0x7f020009;
         public static final int small_number_org=0x7f02000a;
+        public static final int web_hi_res_512=0x7f02000b;
     }
     public static final class id {
         public static final int Button04=0x7f070016;
