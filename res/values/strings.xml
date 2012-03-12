@@ -6,17 +6,17 @@
     <string name="settings">Settings</string>
     <string name="break_label">Break?</string>
     <string name="question_label">\?</string>
-    <string name="about_text">Planning Poker is a tool for estimating software development projects. 
-        \n\nIt is a consensus-based technique for estimating the development effort in an Agile project. 
-        It was first described in 2002 by James Grenning and made popular by Mike Cohn of Mountain Goat Software.
-        \n\nThe team usually has a pack of cards for each person to estimate the difficulty of each story and this version was 
-developed to replace the cards so that android handsets could be used during planning.
-\n\nThis application was written to provide Agile practitioners a tool for planning and estimation without having playing 
-cards. It works in the same way as cards in that a number is chosen and displayed on a phone for the team to see.\n\nNetlight 
-is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, create valuable results for our 
-    clients. \n\nFor Genuine Consultants client interests come first. We deliver independent solutions and tangible results of significant value, 
-    based on the client’s conditions and business goals.\n\nWe do this by focusing on our core values Competence, Creativity and Business 
-    Sense.\n\nSee www.netlight.com for more information.</string>
+    <string name="about_text">Planning Poker, also called Scrum poker, is a consensus-based technique for estimating, 
+        mostly used to estimate effort or relative size of user stories in software development. 
+        It is most commonly used in agile software development.\n\nThe method was first described by James Grenning 
+        in 2002 and later popularized by Mike Cohn in the book Agile Estimating and Planning.\n\nPlanning Poker should 
+        force people to think independently and propose all numbers at the same time. This is accomplished by making 
+        all participants show the card with selected number, on signal.\n\nThis application makes it possible to 
+        play planning poker without playing cards.\n\nNetlight is a genuine consulting firm. We refine the concept 
+        of IT-consulting to be about talents who, in cooperation, create valuable results for our clients.\n\nFor 
+        Genuine Consultants client interests come first. We deliver independent solutions and tangible results 
+        of significant value, based on the client’s conditions and business goals. We do this by focusing on 
+        our core values Competence, Creativity and Business Sense.\n\nSee www.netlight.com for more information.</string>
 
     <string-array name="list">
         <item>Fibonacci</item>
