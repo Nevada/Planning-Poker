@@ -1,6 +1,6 @@
 sideswipe cards
 ###############
-byta mellan kort
+byta mellan kort med swipe
 
 random bilder på break
 #####################
