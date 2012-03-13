@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Light.NoTitleBar" >
         <activity
-            android:name=".ShowFlipper"
+            android:name=".AwesomePagerActivity"
             android:label="@string/app_name" />
        <activity
             android:name=".BreakCard"

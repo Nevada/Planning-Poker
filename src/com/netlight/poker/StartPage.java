@@ -84,21 +84,93 @@ public class StartPage extends Activity {
 			button.setText(numbers[i]);
 			i++;
 		}
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentNumbers(numbers);
+
 	}
 
-	public void showCard(View view) {
-		Button b = (Button) view;
-		String buttonText = b.getText().toString();
+	public void showCard1(View view) {
 		PokerApp app = (PokerApp) getApplication();
-		app.setCurrentCard(buttonText);
-		if (buttonText.equals("Break?")) {
-			Intent card = new Intent(StartPage.this, BreakCard.class);
-			startActivity(card);
-		} else {
-			Intent card = new Intent(StartPage.this, Card.class);
-			startActivity(card);
-		}
+		app.setCurrentIndex(0);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
 
+	public void showCard2(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(1);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard3(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(2);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard4(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(3);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard5(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(4);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard6(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(5);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard7(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(6);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard8(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(7);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard9(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(8);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard10(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(9);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard11(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(10);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
+	}
+
+	public void showCard12(View view) {
+		PokerApp app = (PokerApp) getApplication();
+		app.setCurrentIndex(11);
+		Intent card = new Intent(StartPage.this, AwesomePagerActivity.class);
+		startActivity(card);
 	}
 
 	@Override
@@ -112,7 +184,8 @@ public class StartPage extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case ABOUT:
-			Intent about = new Intent(StartPage.this, ShowFlipper.class);
+			Intent about = new Intent(StartPage.this,
+					AwesomePagerActivity.class);
 			startActivity(about);
 			return true;
 		case SETTINGS:

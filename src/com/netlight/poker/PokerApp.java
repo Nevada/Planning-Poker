@@ -6,6 +6,7 @@ import android.preference.PreferenceManager;
 public class PokerApp extends Application {
 
 	private String currentCard;
+	private int index;
 	private String[] currentNumbers;
 
 	@Override
@@ -34,5 +35,13 @@ public class PokerApp extends Application {
 
 	public void setCurrentNumbers(String[] currentNumbers) {
 		this.currentNumbers = currentNumbers;
+	}
+
+	public void setCurrentIndex(int i) {
+		index = i;
+	}
+
+	int getCurrentIndex() {
+		return index;
 	}
 }
