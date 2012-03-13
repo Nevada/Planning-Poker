@@ -12,6 +12,12 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Light.NoTitleBar" >
         <activity
+            android:name=".ShowFlipper"
+            android:label="@string/app_name" />
+       <activity
+            android:name=".BreakCard"
+            android:label="@string/app_name" />
+        <activity
             android:name=".StartPage"
             android:label="@string/app_name" >
             <intent-filter>
@@ -27,7 +33,7 @@
             android:name=".Card"
             android:label="@string/app_name" />
         <activity
-            android:name="com.netlight.poker.About"
+            android:name=".About"
             android:label="@string/app_name" />
         <activity
             android:name=".PreferenceHelper"

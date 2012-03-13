@@ -1,7 +1,10 @@
 sideswipe cards
 ###############
 byta mellan kort med swipe
+-en enkel sideswip?
+
 
 random bilder på break
 #####################
 tex en öl, eller en kaffe
+-använd mina fina beverage ikoner

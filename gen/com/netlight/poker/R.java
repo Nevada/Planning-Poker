@@ -19,49 +19,65 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int card=0x7f020000;
-        public static final int card_innan=0x7f020001;
-        public static final int grey=0x7f020002;
-        public static final int grey_innan=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int logo=0x7f020005;
-        public static final int purple_logo=0x7f020006;
-        public static final int small_card=0x7f020007;
-        public static final int small_card_org=0x7f020008;
-        public static final int small_number=0x7f020009;
-        public static final int small_number_org=0x7f02000a;
-        public static final int web_hi_res_512=0x7f02000b;
+        public static final int beer=0x7f020000;
+        public static final int bottle=0x7f020001;
+        public static final int can=0x7f020002;
+        public static final int card=0x7f020003;
+        public static final int card_innan=0x7f020004;
+        public static final int coffee=0x7f020005;
+        public static final int coffee2=0x7f020006;
+        public static final int drunk=0x7f020007;
+        public static final int glas=0x7f020008;
+        public static final int grey=0x7f020009;
+        public static final int grey_innan=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int logo=0x7f02000c;
+        public static final int milkshake=0x7f02000d;
+        public static final int pot=0x7f02000e;
+        public static final int purple_logo=0x7f02000f;
+        public static final int small_card=0x7f020010;
+        public static final int small_card_org=0x7f020011;
+        public static final int small_number=0x7f020012;
+        public static final int small_number_org=0x7f020013;
+        public static final int soda=0x7f020014;
+        public static final int takeaway=0x7f020015;
+        public static final int tea=0x7f020016;
+        public static final int water=0x7f020017;
+        public static final int web_hi_res_512=0x7f020018;
+        public static final int wine=0x7f020019;
     }
     public static final class id {
-        public static final int Button04=0x7f070016;
-        public static final int Button05=0x7f070017;
-        public static final int LinearLayout01=0x7f070014;
-        public static final int LinearLayout02=0x7f07000c;
-        public static final int LinearLayout03=0x7f070010;
+        public static final int Button04=0x7f070017;
+        public static final int Button05=0x7f070018;
+        public static final int LinearLayout01=0x7f070015;
+        public static final int LinearLayout02=0x7f07000d;
+        public static final int LinearLayout03=0x7f070011;
         public static final int RelativeLayout01=0x7f070004;
-        public static final int b1=0x7f070009;
-        public static final int b10=0x7f070015;
-        public static final int b2=0x7f07000a;
-        public static final int b3=0x7f07000b;
-        public static final int b4=0x7f07000d;
-        public static final int b5=0x7f07000e;
-        public static final int b6=0x7f07000f;
-        public static final int b7=0x7f070011;
-        public static final int b8=0x7f070012;
-        public static final int b9=0x7f070013;
+        public static final int b1=0x7f07000a;
+        public static final int b10=0x7f070016;
+        public static final int b2=0x7f07000b;
+        public static final int b3=0x7f07000c;
+        public static final int b4=0x7f07000e;
+        public static final int b5=0x7f07000f;
+        public static final int b6=0x7f070010;
+        public static final int b7=0x7f070012;
+        public static final int b8=0x7f070013;
+        public static final int b9=0x7f070014;
+        public static final int image=0x7f070007;
         public static final int imageView1=0x7f070003;
-        public static final int linearLayout1=0x7f070008;
+        public static final int linearLayout1=0x7f070009;
         public static final int number=0x7f070002;
         public static final int scrollView1=0x7f070001;
         public static final int small_number=0x7f070005;
         public static final int textView1=0x7f070000;
         public static final int textView2=0x7f070006;
-        public static final int textView3=0x7f070007;
+        public static final int textView3=0x7f070008;
     }
     public static final class layout {
         public static final int about=0x7f030000;
-        public static final int card=0x7f030001;
-        public static final int start_page=0x7f030002;
+        public static final int break_card=0x7f030001;
+        public static final int card=0x7f030002;
+        public static final int start_page=0x7f030003;
     }
     public static final class string {
         public static final int about=0x7f050001;

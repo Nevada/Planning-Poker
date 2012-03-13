@@ -91,8 +91,14 @@ public class StartPage extends Activity {
 		String buttonText = b.getText().toString();
 		PokerApp app = (PokerApp) getApplication();
 		app.setCurrentCard(buttonText);
-		Intent card = new Intent(StartPage.this, Card.class);
-		startActivity(card);
+		if (buttonText.equals("Break?")) {
+			Intent card = new Intent(StartPage.this, BreakCard.class);
+			startActivity(card);
+		} else {
+			Intent card = new Intent(StartPage.this, Card.class);
+			startActivity(card);
+		}
+
 	}
 
 	@Override
@@ -106,7 +112,7 @@ public class StartPage extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case ABOUT:
-			Intent about = new Intent(StartPage.this, About.class);
+			Intent about = new Intent(StartPage.this, ShowFlipper.class);
 			startActivity(about);
 			return true;
 		case SETTINGS:
