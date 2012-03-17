@@ -19,6 +19,13 @@ public class Card extends Activity {
 	private Context context;
 	private AwesomePagerAdapter awesomeAdapter;
 
+	@Override
+	protected void onRestart() {
+		// fixes bugg
+		super.onRestart();
+		finish();
+	}
+
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

@@ -17,6 +17,16 @@ public class StartPage extends Activity {
 
 	SharedPreferences prefs;
 	List<Button> buttons;
+	Button b1;
+	Button b2;
+	Button b3;
+	Button b4;
+	Button b5;
+	Button b6;
+	Button b7;
+	Button b8;
+	Button b9;
+	Button b10;
 
 	private static final int ABOUT = 0;
 	private static final int SETTINGS = 1;
@@ -28,16 +38,16 @@ public class StartPage extends Activity {
 		setContentView(R.layout.start_page);
 
 		buttons = new ArrayList<Button>();
-		Button b1 = (Button) findViewById(R.id.b1);
-		Button b2 = (Button) findViewById(R.id.b2);
-		Button b3 = (Button) findViewById(R.id.b3);
-		Button b4 = (Button) findViewById(R.id.b4);
-		Button b5 = (Button) findViewById(R.id.b5);
-		Button b6 = (Button) findViewById(R.id.b6);
-		Button b7 = (Button) findViewById(R.id.b7);
-		Button b8 = (Button) findViewById(R.id.b8);
-		Button b9 = (Button) findViewById(R.id.b9);
-		Button b10 = (Button) findViewById(R.id.b10);
+		b1 = (Button) findViewById(R.id.b1);
+		b2 = (Button) findViewById(R.id.b2);
+		b3 = (Button) findViewById(R.id.b3);
+		b4 = (Button) findViewById(R.id.b4);
+		b5 = (Button) findViewById(R.id.b5);
+		b6 = (Button) findViewById(R.id.b6);
+		b7 = (Button) findViewById(R.id.b7);
+		b8 = (Button) findViewById(R.id.b8);
+		b9 = (Button) findViewById(R.id.b9);
+		b10 = (Button) findViewById(R.id.b10);
 		buttons.add(b1);
 		buttons.add(b2);
 		buttons.add(b3);
